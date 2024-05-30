@@ -413,7 +413,6 @@
     "dependencies": [
       "npm:@bufbuild/protobuf@^1.9.0",
       "npm:@connectrpc/connect-fastify@^1.4.0",
-      "npm:@connectrpc/connect-node@^1.4.0",
       "npm:@connectrpc/connect-web@^1.4.0",
       "npm:@connectrpc/connect@^1.4.0",
       "npm:fastify@^4.27.0"
