@@ -1,0 +1,14 @@
+version: v2
+
+plugins:
+  - remote: buf.build/connectrpc/es
+    opt: target=ts,import_extension=.ts
+    out: gen
+  - remote: buf.build/bufbuild/es
+    opt: target=ts,import_extension=.ts
+    out: gen
+inputs:
+  - directory: proto
+
+
+

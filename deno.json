@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@bufbuild/protobuf": "npm:@bufbuild/protobuf@^1.9.0",
+    "@connectrpc/connect": "npm:@connectrpc/connect@^1.4.0",
+    "@connectrpc/connect-fastify": "npm:@connectrpc/connect-fastify@^1.4.0",
+    "@connectrpc/connect-node": "npm:@connectrpc/connect-node@^1.4.0",
+    "@connectrpc/connect-web": "npm:@connectrpc/connect-web@^1.4.0",
+    "fastify": "npm:fastify@^4.27.0"
+  }
+}
